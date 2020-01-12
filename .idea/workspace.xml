@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a7bb54d-51d7-4bff-9406-01fb2a5c02f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gdanskDemografics.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/gdanskDemografic/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/gdanskDemografic/Analyser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/gdanskDemografic/District.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/gdanskDemografic/FileLoaderUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/gdanskDemografic/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/gdanskDemografic/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +40,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Programowanie1" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\szkolenie\Documents\gdanskDemografics\src\main\java\pl\sda\gdanskDemografic" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\szkolenie\Documents\gdanskDemografics\src\main\resources" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -92,36 +97,85 @@
       <option name="presentableId" value="Default" />
       <updated>1578826179865</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit.">
+      <created>1578828392790</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578828392790</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit." />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="392" y="89" key="#Project_Structure" timestamp="1578829277883">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="89" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1578829277883" />
     <state x="254" y="85" width="1092" height="775" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578827166845">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="254" y="85" width="1092" height="775" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1578827166845" />
-    <state x="580" y="172" key="FileChooserDialogImpl" timestamp="1578827254496">
+    <state x="605" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1578830325481">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="172" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1578827254496" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1578828085269">
+    <state x="605" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1578830325481" />
+    <state x="422" y="25" key="CommitChangelistDialog2" timestamp="1578828392024">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1578828085269" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1578828085269">
+    <state x="422" y="25" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1578828392024" />
+    <state x="580" y="172" key="FileChooserDialogImpl" timestamp="1578833703845">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1578828085269" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1578828085269">
+    <state x="580" y="172" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1578833703845" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1578837803852">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1578828085269" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1578828085269">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1578837803852" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1578837803836">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1578828085269" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1578837803836" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1578837803836">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1578837803836" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1578837803852">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1578837803852" />
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1578837598879">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1578837598879" />
+    <state width="1557" height="276" key="GridCell.Tab.1.center" timestamp="1578837598879">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1578837598879" />
+    <state width="1557" height="276" key="GridCell.Tab.1.left" timestamp="1578837598879">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1578837598879" />
+    <state width="1557" height="276" key="GridCell.Tab.1.right" timestamp="1578837598879">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1578837598879" />
     <state x="301" y="11" key="SettingsEditor" timestamp="1578827202537">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="11" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1578827202537" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="Districts[34]" />
+        <watch expression="Districts[34]" language="JAVA" />
+        <watch expression="Districts[34]" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
