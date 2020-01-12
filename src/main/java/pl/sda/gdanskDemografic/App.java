@@ -8,7 +8,8 @@ public class App {
 
     public static void main(String[] args) throws IOException {
         District[] districts = loadDistricts();
-
+        Analyser analyser = new Analyser(districts);
+        analyser.findByName("WRZESZCZ GÓRNY");
     }
 
     private static District[] loadDistricts() throws IOException {

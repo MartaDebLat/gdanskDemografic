@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a7bb54d-51d7-4bff-9406-01fb2a5c02f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/gdanskDemografic/Analyser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/gdanskDemografic/District.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/gdanskDemografic/FileLoaderUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/gdanskDemografic/Analyser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/gdanskDemografic/Analyser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/gdanskDemografic/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/gdanskDemografic/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/gdanskDemografic/District.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/gdanskDemografic/District.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="MartaDebLat &lt;marta.deblat@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IgnoredFileRootStore">
@@ -104,12 +107,20 @@
       <option name="project" value="LOCAL" />
       <updated>1578828392790</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added loading data and little bit more.">
+      <created>1578838000748</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578838000748</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit." />
+    <MESSAGE value="Added loading data and little bit more." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added loading data and little bit more." />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="89" key="#Project_Structure" timestamp="1578829277883">
@@ -120,14 +131,14 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="254" y="85" width="1092" height="775" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1578827166845" />
-    <state x="605" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1578830325481">
+    <state x="605" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1578839316384">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="605" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1578830325481" />
-    <state x="422" y="25" key="CommitChangelistDialog2" timestamp="1578828392024">
+    <state x="605" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1578839316384" />
+    <state x="422" y="25" key="CommitChangelistDialog2" timestamp="1578837999951">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="422" y="25" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1578828392024" />
+    <state x="422" y="25" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1578837999951" />
     <state x="580" y="172" key="FileChooserDialogImpl" timestamp="1578833703845">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -168,6 +179,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="11" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1578827202537" />
+    <state x="392" y="164" key="Vcs.Push.Dialog.v2" timestamp="1578838079687">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="164" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1578838079687" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
